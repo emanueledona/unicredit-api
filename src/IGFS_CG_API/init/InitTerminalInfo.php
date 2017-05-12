@@ -1,5 +1,5 @@
 <?php
-namespace emanueledona\unicredit-api\IGFS_CG_API\init;
+namespace emanueledona\unicreditApi\IGFS_CG_API\init;
 
 class InitTerminalInfo {
 	

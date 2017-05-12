@@ -1,12 +1,12 @@
 <?php
-namespace emanueledona\unicredit-api\IGFS_CG_API;
+namespace emanueledona\unicreditApi\IGFS_CG_API;
 
-use emanueledona\unicredit-api\IGFS_CG_API\IgfsUtils;
-use emanueledona\unicredit-api\IGFS_CG_API\IgfsMissingParException;
-use emanueledona\unicredit-api\IGFS_CG_API\IgfsException;
-use emanueledona\unicredit-api\IGFS_CG_API\ReadWriteException;
-use emanueledona\unicredit-api\IGFS_CG_API\ConnectionException;
-use emanueledona\unicredit-api\IGFS_CG_API\IOException;
+use emanueledona\unicreditApi\IGFS_CG_API\IgfsUtils;
+use emanueledona\unicreditApi\IGFS_CG_API\IgfsMissingParException;
+use emanueledona\unicreditApi\IGFS_CG_API\IgfsException;
+use emanueledona\unicreditApi\IGFS_CG_API\ReadWriteException;
+use emanueledona\unicreditApi\IGFS_CG_API\ConnectionException;
+use emanueledona\unicreditApi\IGFS_CG_API\IOException;
 
 abstract class BaseIgfsCg {
 	

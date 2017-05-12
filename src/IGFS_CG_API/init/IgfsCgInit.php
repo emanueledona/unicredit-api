@@ -1,10 +1,10 @@
 <?php
-namespace emanueledona\unicredit-api\IGFS_CG_API\init;
+namespace emanueledona\unicreditApi\IGFS_CG_API\init;
 
-use emanueledona\unicredit-api\IGFS_CG_API\init\BaseIgfsCgInit;
-use emanueledona\unicredit-api\IGFS_CG_API\init\InitTerminalInfo;
-use emanueledona\unicredit-api\IGFS_CG_API\Level3Info;
-use emanueledona\unicredit-api\IGFS_CG_API\MandateInfo;
+use emanueledona\unicreditApi\IGFS_CG_API\init\BaseIgfsCgInit;
+use emanueledona\unicreditApi\IGFS_CG_API\init\InitTerminalInfo;
+use emanueledona\unicreditApi\IGFS_CG_API\Level3Info;
+use emanueledona\unicreditApi\IGFS_CG_API\MandateInfo;
 
 class IgfsCgInit extends BaseIgfsCgInit {
 
