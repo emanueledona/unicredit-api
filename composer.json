@@ -4,7 +4,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4" : {
-            "emanuele-dona\\unicredit-api\\" : "src/"
+            "emanueledona\\unicredit-api\\" : "src/"
         }
     }
 }
