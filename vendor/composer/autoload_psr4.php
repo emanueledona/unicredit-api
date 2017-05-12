@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'emanuele-dona\\unicredit-api\\' => array($baseDir . '/src'),
+    'emanueledona\\unicredit-api\\' => array($baseDir . '/src'),
 );

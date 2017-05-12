@@ -9,12 +9,12 @@ class ComposerStaticInit76f2289c179ee71f1668b55d42ab4c8f
     public static $prefixLengthsPsr4 = array (
         'e' => 
         array (
-            'emanuele-dona\\unicredit-api\\' => 28,
+            'emanueledona\\unicredit-api\\' => 27,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'emanuele-dona\\unicredit-api\\' => 
+        'emanueledona\\unicredit-api\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
