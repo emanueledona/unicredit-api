@@ -1,8 +1,8 @@
 <?php
 #require_once("IGFS_CG_API/BaseIgfsCg.php");
-namespace emanuele-dona\unicreditApi\IGFS_CG_API\init;
+namespace emanueledona\unicredit-api\IGFS_CG_API\init;
 
-use emanuele-dona\unicreditApi\IGFS_CG_API\BaseIgfsCg;
+use emanueledona\unicredit-api\IGFS_CG_API\BaseIgfsCg;
 
 abstract class BaseIgfsCgInit extends BaseIgfsCg {
 

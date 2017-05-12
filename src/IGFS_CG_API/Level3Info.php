@@ -1,7 +1,7 @@
 <?php
-namespace emanuele-dona\unicreditApi\IGFS_CG_API;
+namespace emanueledona\unicredit-api\IGFS_CG_API;
 
-use emanuele-dona\unicreditApi\IGFS_CG_API\Level3InfoProduct;
+use emanueledona\unicredit-api\IGFS_CG_API\Level3InfoProduct;
 
 class Level3Info {
 	

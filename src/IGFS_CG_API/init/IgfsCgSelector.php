@@ -1,8 +1,8 @@
 <?php
-namespace emanuele-dona\unicreditApi\IGFS_CG_API\init;
+namespace emanueledona\unicredit-api\IGFS_CG_API\init;
 
-use emanuele-dona\unicreditApi\IGFS_CG_API\init\BaseIgfsCgInit;
-use emanuele-dona\unicreditApi\IGFS_CG_API\init\SelectorTerminalInfo;
+use emanueledona\unicredit-api\IGFS_CG_API\init\BaseIgfsCgInit;
+use emanueledona\unicredit-api\IGFS_CG_API\init\SelectorTerminalInfo;
 
 class IgfsCgSelector extends BaseIgfsCgInit {
 

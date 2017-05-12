@@ -1,8 +1,8 @@
 <?php
-namespace emanuele-dona\unicreditApi\IGFS_CG_API\tran;
+namespace emanueledona\unicredit-api\IGFS_CG_API\tran;
 
-use emanuele-dona\unicreditApi\IGFS_CG_API\Level3Info;
-use emanuele-dona\unicreditApi\IGFS_CG_API\tran\BaseIgfsCgTran;
+use emanueledona\unicredit-api\IGFS_CG_API\Level3Info;
+use emanueledona\unicredit-api\IGFS_CG_API\tran\BaseIgfsCgTran;
 
 class IgfsCgAuth extends BaseIgfsCgTran {
 

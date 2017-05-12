@@ -1,7 +1,7 @@
 <?php
-namespace emanuele-dona\unicreditApi\IGFS_CG_API\mpi;
+namespace emanueledona\unicredit-api\IGFS_CG_API\mpi;
 
-use emanuele-dona\unicreditApi\IGFS_CG_API\mpi\BaseIgfsCgMpi;
+use emanueledona\unicredit-api\IGFS_CG_API\mpi\BaseIgfsCgMpi;
 
 class IgfsCgMpiAuth extends BaseIgfsCgMpi {
 

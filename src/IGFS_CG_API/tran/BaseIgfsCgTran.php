@@ -1,7 +1,7 @@
 <?php
-namespace emanuele-dona\unicreditApi\IGFS_CG_API\tran;
+namespace emanueledona\unicredit-api\IGFS_CG_API\tran;
 
-use emanuele-dona\unicreditApi\IGFS_CG_API\tran\BaseIgfsCg;
+use emanueledona\unicredit-api\IGFS_CG_API\tran\BaseIgfsCg;
 
 abstract class BaseIgfsCgTran extends BaseIgfsCg {
 

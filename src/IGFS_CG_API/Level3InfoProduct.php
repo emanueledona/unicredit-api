@@ -1,7 +1,7 @@
 <?php
-namespace emanuele-dona\unicreditApi\IGFS_CG_API;
+namespace emanueledona\unicredit-api\IGFS_CG_API;
 
-class emanuele-dona\unicreditApi\IGFS_CG_API\Level3InfoProduct {
+class emanueledona\unicredit-api\IGFS_CG_API\Level3InfoProduct {
 	
 	public $productCode;
 	public $productDescription;

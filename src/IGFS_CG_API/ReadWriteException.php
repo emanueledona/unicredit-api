@@ -1,7 +1,7 @@
 <?php
-namespace emanuele-dona\unicreditApi\IGFS_CG_API;
+namespace emanueledona\unicredit-api\IGFS_CG_API;
 
-use emanuele-dona\unicreditApi\IGFS_CG_API\IOException;
+use emanueledona\unicredit-api\IGFS_CG_API\IOException;
 
 class ReadWriteException extends IOException {
     public function __construct($url, $message) {

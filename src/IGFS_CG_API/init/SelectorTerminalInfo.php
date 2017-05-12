@@ -1,5 +1,5 @@
 <?php
-namespace emanuele-dona\unicreditApi\IGFS_CG_API\init;
+namespace emanueledona\unicredit-api\IGFS_CG_API\init;
 
 class SelectorTerminalInfo {
 	
