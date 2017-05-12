@@ -1,0 +1,10 @@
+{
+    "name": "emanuele-dona/unicredit-api",
+    "version": "master",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4" : {
+            "emanuele-dona\\unicredit-api\\" : "src/"
+        }
+    }
+}
