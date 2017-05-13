@@ -6,6 +6,7 @@ use emanueledona\unicreditApi\IGFS_CG_API\init\IgfsCgVerify;
 
 Class UnicreditApi {
   public function __construct() {
+    $this->paymentID = NULL;
   }
 
   public function init(array $args = []) {
@@ -15,13 +16,19 @@ Class UnicreditApi {
         $IgfsCgInit->{$field} = $value;
       }
     }
-    if($IgfsCgInit->execute())
+    if($IgfsCgInit->execute()) {
+      $this->paymentID = $IgfsCgInit->paymentID;
       return $IgfsCgInit->redirectURL;
+    }
     else {
       $errorCode = urlencode($IgfsCgInit->rc);
       $errorDesc = urlencode($IgfsCgInit->errorDesc);
       return "{$IgfsCgInit->errorURL}?error={$errorCode}&desc={$errorDesc}";
     }
+  }
+
+  public function getPaymentID() {
+    return $this->paymentID;
   }
 
 }
