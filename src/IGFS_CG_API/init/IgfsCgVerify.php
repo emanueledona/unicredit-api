@@ -3,6 +3,7 @@ namespace emanueledona\unicreditApi\IGFS_CG_API\init;
 
 use emanueledona\unicreditApi\IGFS_CG_API\init\BaseIgfsCgInit;
 use emanueledona\unicreditApi\IGFS_CG_API\IgfsMissingParException;
+use emanueledona\unicreditApi\IGFS_CG_API\IgfsUtils;
 use emanueledona\unicreditApi\IGFS_CG_API\Level3Info;
 
 class IgfsCgVerify extends BaseIgfsCgInit {
