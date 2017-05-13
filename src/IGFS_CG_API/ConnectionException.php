@@ -1,7 +1,7 @@
 <?php
 namespace emanueledona\unicreditApi\IGFS_CG_API;
 
-use IOException;
+use emanueledona\unicreditApi\IGFS_CG_API\IOException;
 
 class ConnectionException extends IOException {
     public function __construct($url, $message) {
