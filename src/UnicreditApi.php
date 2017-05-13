@@ -31,5 +31,34 @@ Class UnicreditApi {
     return $this->paymentID;
   }
 
+  public function verify($paymentID = NULL) {
+    $IgfsCgVerify = new IgfsCgVerify();
+    foreach($args as $field => $value) {
+      if(property_exists($IgfsCgVerify,$field)) {
+        $IgfsCgVerify->{$field} = $value;
+      }
+    }
+    $IgfsCgVerify->paymentID = $paymentID;
+
+    if($IgfsCgVerify->execute()) {
+      return [
+        'status'  => 'OK',
+        'rc'  => $IgfsCgVerify->rc,
+        'tranID'  => $IgfsCgVerify->tranID,
+        'enrStatus' => $IgfsCgVerify->enrStatus,
+        'authStatus'  => $IgfsCgVerify->authStatus,
+      ];
+    }
+    else {
+      return [
+        'status'  => 'KO',
+        'rc'  =>  $IgfsCgVerify->rc,
+        'errorDesc' => $IgfsCgVerify->errorDesc,
+      ];
+    }
+
+    return FALSE;
+  }
+
 }
 
