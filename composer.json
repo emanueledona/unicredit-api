@@ -2,6 +2,7 @@
     "name": "emanueledona/unicredit-api",
     "version": "master",
     "license": "MIT",
+    "tags": ["unicredit","unicredit italy","unicredit api"],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4" : {
