@@ -31,7 +31,7 @@ Class UnicreditApi {
     return $this->paymentID;
   }
 
-  public function verify($paymentID = NULL) {
+  public function verify($paymentID = NULL,array $args = []) {
     $IgfsCgVerify = new IgfsCgVerify();
     foreach($args as $field => $value) {
       if(property_exists($IgfsCgVerify,$field)) {
