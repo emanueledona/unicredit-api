@@ -3,6 +3,7 @@ namespace emanueledona\unicreditApi\IGFS_CG_API\init;
 
 use emanueledona\unicreditApi\IGFS_CG_API\init\BaseIgfsCgInit;
 use emanueledona\unicreditApi\IGFS_CG_API\init\InitTerminalInfo;
+use emanueledona\unicreditApi\IGFS_CG_API\IgfsUtils;
 use emanueledona\unicreditApi\IGFS_CG_API\Level3Info;
 use emanueledona\unicreditApi\IGFS_CG_API\MandateInfo;
 

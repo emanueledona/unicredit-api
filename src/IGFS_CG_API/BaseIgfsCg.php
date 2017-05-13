@@ -117,14 +117,14 @@ abstract class BaseIgfsCg {
 			
 			$response = str_replace("<soap:", "<", $response);
 			$response = str_replace("</soap:", "</", $response);
-			$dom = new SimpleXMLElement($response, LIBXML_NOERROR, false);
+			$dom = new \SimpleXMLElement($response, LIBXML_NOERROR, false);
 			if (count($dom)==0) {
 				return;
 			}
 
 			$tmp = str_replace("<Body>", "", $dom->Body->asXML());
 			$tmp = str_replace("</Body>", "", $tmp);
-			$dom = new SimpleXMLElement($tmp, LIBXML_NOERROR, false);
+			$dom = new \SimpleXMLElement($tmp, LIBXML_NOERROR, false);
 			if (count($dom)==0) {
 				return;
 			}
