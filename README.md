@@ -67,14 +67,14 @@ To check if a payment is correct you need the `paymentID` and some configuration
 The function return an array :
 
 - in case of success :
--- 'status'  => 'OK',
--- 'rc'  => $IgfsCgVerify->rc,
--- 'tranID'  => $IgfsCgVerify->tranID,
--- 'enrStatus' => $IgfsCgVerify->enrStatus,
--- 'authStatus'  => $IgfsCgVerify->authStatus,
+  - 'status'  => 'OK',
+  - 'rc'  => $IgfsCgVerify->rc,
+  - 'tranID'  => $IgfsCgVerify->tranID,
+  - 'enrStatus' => $IgfsCgVerify->enrStatus,
+  - 'authStatus'  => $IgfsCgVerify->authStatus,
 
 - in case of errors :
--- 'status'  => 'KO',
--- 'rc'  =>  $IgfsCgVerify->rc,
--- 'errorDesc' => $IgfsCgVerify->errorDesc,
+  - 'status'  => 'KO',
+  - 'rc'  =>  $IgfsCgVerify->rc,
+  - 'errorDesc' => $IgfsCgVerify->errorDesc,
 
